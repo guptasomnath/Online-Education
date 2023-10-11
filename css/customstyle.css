@@ -1,0 +1,34 @@
+#rightSideImage {
+   width: 350px;
+   height: 350px;
+   background-image: url('../images/undraw_learning_sketching_nd4f.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#moymathLogoAbout{
+   background-image: url('../images/moymathLogo.jpeg');
+   background-position: center;
+   background-size: 120%;
+   background-repeat: no-repeat;
+}
+
+
+#moyImg{
+
+   background-image: url('../images/moy.jpg');
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+  
+}
+
+
+
+@media screen and (max-width: 639px) {
+   #rightSideImage {
+      width: 250px;
+      height: 250px;
+   }
+}
